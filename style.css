@@ -293,6 +293,49 @@ i {
     border: 1px solid;
 }
 
+/*START SECTION*/
+
+.start__container {
+    display: flex;
+    align-items: center;
+}
+
+.image3 {
+    width: 600px;
+    height: auto;
+}
+
+.start__container--text {
+    padding-bottom: 40px;
+    overflow: hidden;
+    padding-left: 60px;
+    
+}
+
+.number {
+    display: flex;
+    padding-top: 40px;
+    width: 80%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+.number h1 {
+     color: grey;
+     opacity: 0.5;
+}
+
+.number p {
+    font-weight: 500;
+    color: grey;
+    opacity: 0.7;
+}
+
 
 
 
