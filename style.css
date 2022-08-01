@@ -176,7 +176,86 @@ form {
 
   }
 
-  
+  button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+/* SERVICES */
+
+.second__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information__contain {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.information__container {
+    display: flex;
+    width: calc(100%/3);
+    margin-top: 80px;
+    
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    
+}
+
+
+
+.second__container--row {
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+i {
+    padding: 16px;
+    border: 1px solid rgb(175, 169, 169);
+    color: rgba(100,21,255);
+    
+    border-radius: 50%;
+}
+
+.sectiontwo p {
+    color: grey;
+    font-weight: 500;
+    
+}
+
+.paragraph {
+    width: 600px;
+}
+
+.sectiontwo h1 {
+    padding-bottom: 20px;
+    opacity: 0.8;
+    word-spacing: 8px;
+    font-size: 50px;
+}
+
+.information h2{
+    padding-bottom: 12px;
+}
+
+
+
 
 
 
