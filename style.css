@@ -9,6 +9,10 @@
 
 }
 
+p {
+    line-height: 1.5;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -24,10 +28,14 @@ a:hover {
     text-decoration: underline;
 }
 
+span {
+    color: rgba(100,21,255)
+}
+
 
 /* NAV */
 
-p {
+nav p {
     font-weight: 700;
     font-size: 24px;
     padding-left: 10px;
@@ -49,7 +57,7 @@ p {
 
 }
 
-figure{
+nav figure{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,4 +105,78 @@ figure{
 }
 
 /* HEADER */
+
+.header {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.header__container {
+    display: flex;
+    
+}
+
+.header__container--text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    
+}
+
+.header__container--image {
+    width: 100%;
+    max-width: 800px;
+    
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.header__container--paragraph {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    
+    /* This bit draws the box around it */
+    border:1px solid grey;
+    border-radius: 40px;
+  
+    /* I've used padding so you can see the edges of the elements. */
+    padding: 12px 20px;
+  }
+  
+  input {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+  }
+  
+  input:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+  
+  .header button {
+    /* Just a little styling to make it pretty */
+    border:1px solid blue;
+    background:rgba(100,21,255);
+    color:white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+
+  }
+
+  
+
+
 
