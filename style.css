@@ -26,6 +26,8 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
+
 }
 
 
@@ -34,7 +36,7 @@ a:hover {
 }
 
 span {
-    color: rgba(100,21,255)
+    color: rgba(100,21,255);
 }
 
 
@@ -434,6 +436,73 @@ hr {
     font-weight: 700;
     color: white;
 }
+
+
+/* FOOTER */
+
+footer {
+    background-color:   rgba(100,21,255);
+   padding: 120px 120px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__text--container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second__footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer__img {
+    width:42px;
+}
+
+.footerlogo {
+    display: flex;
+    align-items: center;
+}
+
+footer i{
+    background-color: white;
+    color:black;
+
+
+}
+
+.footer__text p{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-weight: 100;
+    opacity: 0.8;
+    
+}
+
+.footer__text h5 {
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: white;
+    
+}
+
+footer hr {
+    border: none;
+    color: grey;
+    background-color: grey;
+    height: 1px;
+}
+
+
 
 
 
