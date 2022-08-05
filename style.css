@@ -592,6 +592,18 @@ footer hr {
         height: 68px;
     }
 
+    .btn__menu {
+        display: block;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    .nav__container figure {
+        width: 160px;
+    }
+
     h1 {
         font-size: 25px;
     }
@@ -661,7 +673,7 @@ footer hr {
 
       .information__contain {
         padding: 0 12px;
-        height: 80vh;
+        height: 50vh;
         align-items: center;
         flex-direction: column;
       }
@@ -752,9 +764,6 @@ footer hr {
         display: none;
     }
 
-    .header__container {
-        
-    }
 
     .header__container--text {
         padding: 10px 0;
