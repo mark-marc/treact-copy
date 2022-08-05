@@ -730,6 +730,10 @@ footer hr {
         padding: 8px;
     }
 
+    nav figure {
+        width: 140px;
+    }
+
     .btn__menu{
         display: block;
     }
@@ -738,6 +742,119 @@ footer hr {
         display: none;
     }
 
+    .header__container {
+        
+    }
+
+    .header__container--text {
+        padding: 10px 0;
+    }
+
+    .header__container--text .text2 {
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .header__container--text h1 {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /*Features*/
+
+    .paragraph {
+        width: 350px;
+    }
+
+    .information__contain{
+        height: 150vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+
+
+    
+    }
+
+    .information__container {
+        width: 240px;
+    }
+
+    /*Design*/
+
+    .design__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .design__container--text{
+        padding: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .personal, .enterprise, .business {
+        width: 350px;
+    }
+
+    /* Start */
+
+    section {
+        padding: 70px 0;
+    }
+
+    .start__container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image3 {
+        width: 350px;
+    }
+
+
+    /*Footer*/ 
+
+    .footer__text--container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height:432px;
+        width: 350px;
+        align-items: center;
+    }
+
+    .footer__text{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        text-align: center;
+        width: 120px;
+    }
+
+  .second__footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    height: 200px;
+  }
     
 }
 
