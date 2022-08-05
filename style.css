@@ -9,6 +9,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     padding-top: 140px;
     padding-bottom: 140px;
@@ -39,33 +43,7 @@ span {
     color: rgba(100,21,255);
 }
 
-body {
-    background-color: white;
-}
 
-body .sun {
-    background-color: white;
-}
-
-
-
-.dark-mode {
-    background-color: black;
-    color: white;
-    
-}
-
-.dark-mode button {
-   background-color: transparent;
-}
-
-.dark-mode a{
-    color: white;
-}
-
-.dark-mode .sun{
-    color: black;
-}
 
 
 
