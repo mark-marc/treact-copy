@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/57e9c82959.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 
 </head>
 
@@ -16,22 +17,59 @@
         <div class="row">
             <div class="nav__container">
             
-            <figure>
-                <img src="./assets/logo.svg" class="nav__logo" alt="">
-                <p>Treact</p>
+                <figure>
+                    <img src="./assets/logo.svg" class="nav__logo" alt="">
+                    <p>Treact</p>
 
-            </figure>
+                </figure>
 
-            
+                
 
-            <ul class="nav__links">
-                <li class="nav__link"><a href="#" class="link__style"s>About</a></li>
-                <li class="nav__link"><a href="#" class="link__style">Blog</a></li>
-                <li class="nav__link"><a href="#" class="link__style">Pricing</a></li>
-                <li class="nav__link"><a href="#" class="link__style">Contact us</a></li>
-                <li class="nav__link"><a href="#" class="link__style link__style--login">Login</a></li>
-                <li class="nav__link nav__link--primary"><a href="#">Sign-up</a></li>
-            </ul>
+                <ul class="nav__links">
+                    <li class="nav__link"><a href="#" class="link__style">About</a></li>
+                    <li class="nav__link"><a href="#" class="link__style">Blog</a></li>
+                    <li class="nav__link"><a href="#" class="link__style">Pricing</a></li>
+                    <li class="nav__link"><a href="#" class="link__style">Contact us</a></li>
+                    <li class="nav__link"><a href="#" class="link__style link__style--login">Login</a></li>
+                    <li class="nav__link nav__link--primary"><a href="#">Sign-up</a></li>
+                </ul>
+                
+
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list">
+                            <a href="#" class="menu__link">About</a>
+                        </li>
+
+                        <li class="menu__list">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+
+                        <li class="menu__list">
+                            <a href="#" class="menu__link">Pricing</a>
+                        </li>
+
+                        <li class="menu__list">
+                            <a href="#" class="menu__link">Contact us</a>
+
+                    
+                        </li>
+
+                        <li class="menu__list">
+                            <a href="#" class="menu__link">Log In</a>
+                        </li>
+
+                        <li class="menu__list">
+                            <a href="#" class="menu__link">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             
         
@@ -44,6 +82,7 @@
 
                 <div class="header__container--text">
                 <h1>Beautiful React Templates <span>for you.</span></h1>
+                <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam repellendus perferendis.</p>
                 <P class="header__container--para">
                     <form>
                         <input placeholder="Enter your email address">
